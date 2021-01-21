@@ -34,7 +34,7 @@ int main()
     Number2 = 8
     Number3 = 5
     
-    Both are Equal or Not ?
+    BINARY Representation
     00000000000000000000000000001111
     00000000000000000000000000001000
     00000000000000000000000000000101
