@@ -11,7 +11,7 @@ void solve(int number)
 
 int main() 
 {
-    int number=0x59;;
+    int number=0x59;
     
     printf("Initial Number\nNumber1 = %X\n",number);
 
