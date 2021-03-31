@@ -26,6 +26,35 @@ int main()
     return 0;
 }
 
+/////////////////////////////////////////////////////  METHOD 2  ///////////////////////////////////////////////////////////////////////
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void solve(int number)
+{
+    int i=0;
+    int n=number;           // So that number will RESERVED for FURTHER Comparision.
+    while((n)>=(1<<i))
+    {
+        number^=(1<<i);
+        i++;
+    }
+    cout<<"After TOGGLE all Bits\nNumber => "<<number<<"\n\n";
+}
+
+int main() 
+{
+    int number;
+    while(cin>>number)
+    {
+        cout<<"Before TOGGLE all Bits\nNumber => "<<number<<endl;
+        solve(number);
+    }  
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*  
                     INPUT
     10
